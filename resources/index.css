@@ -1,3 +1,38 @@
 header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: thin solid black;
+}
 
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+header span {
+  margin-left: 15px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 15px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  margin: 0px 10px;
 }
