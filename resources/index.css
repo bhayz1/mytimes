@@ -52,8 +52,16 @@ div {
 
 .large {
   width: 630px;
+  margin-right: 18px;
 }
 
 .medium {
   width: 300px;
+  margin-left: 18px;
+}
+
+.small {
+  width: 240px;
+  margin-left: 36px;
+  margin-right: 36px;
 }
