@@ -43,6 +43,7 @@ div {
 
 .main-container {
   display: flex;
+  align-items: flex-start;
 }
 
 .column {
@@ -51,5 +52,8 @@ div {
 
 .large {
   width: 630px;
-  padding-bottom: 70px;
+}
+
+.medium {
+  width: 300px;
 }
