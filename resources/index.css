@@ -1,11 +1,15 @@
 header {
   display: flex;
   align-items: center;
+  position: fixed;
+  background-color: white;
   width: 100%;
   height: 80px;
   font-size: 14px;
   font-weight: bold;
+  z-index: 5;
   border-bottom: thin solid black;
+  /*cant figure out how to get body to not appear above header when scrolling*/
 }
 
 .logo {
@@ -44,6 +48,7 @@ div {
 .main-container {
   display: flex;
   align-items: flex-start;
+  padding-top: 100px;
 }
 
 .column {
@@ -53,6 +58,7 @@ div {
 
 .large {
   width: 630px;
+  height: 636px;
   margin-right: 18px;
 }
 
@@ -64,6 +70,7 @@ div {
 
 .small {
   width: 240px;
+  height: 636px;
   margin-left: 18px;
   margin-right: 36px;
 }
