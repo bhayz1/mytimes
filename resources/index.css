@@ -41,15 +41,16 @@ nav a {
   margin: 0px 10px;
 }
 
-div {
+/*div {
   border: thin solid black;
-}
+}*/
 
 .main-container {
   display: flex;
+  width: 1500px;
+  margin: 0 auto 78px auto;
   align-items: flex-start;
   padding-top: 100px;
-  width: 100%;
 }
 
 .column {
@@ -129,11 +130,15 @@ div {
 
 .stories {
   display: flex;
+  justify-content: space-between;
 }
-
 
 .small-container {
   display: flex;
   flex-direction: column;
+  width: 300px;
+}
 
+.small-block {
+  height: 250px;
 }
