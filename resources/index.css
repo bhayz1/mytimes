@@ -36,3 +36,20 @@ nav a {
   color: black;
   margin: 0px 10px;
 }
+
+div {
+  border: thin solid black;
+}
+
+.main-container {
+  display: flex;
+}
+
+.column {
+  display: flex;
+}
+
+.large {
+  width: 630px;
+  padding-bottom: 70px;
+}
