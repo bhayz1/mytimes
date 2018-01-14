@@ -49,6 +49,7 @@ div {
   display: flex;
   align-items: flex-start;
   padding-top: 100px;
+  width: 100%;
 }
 
 .column {
@@ -81,7 +82,10 @@ div {
 }
 
 .main-text {
+  font-family: Georgia;
+  font-weight: bold;
   font-size: 40px;
+  color: white;
 }
 
 .image-story {
@@ -111,4 +115,25 @@ div {
   background-image: url(./images/cameraman.png);
   height: 300px;
   margin-top: 15px;
+}
+
+.cat-img {
+  background-image: url(./images/cat.png);
+  height: 300px;
+  margin-top: 15px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.stories {
+  display: flex;
+}
+
+
+.small-container {
+  display: flex;
+  flex-direction: column;
+
 }
