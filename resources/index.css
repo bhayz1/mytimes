@@ -12,6 +12,11 @@ header {
   /*cant figure out how to get body to not appear above header when scrolling*/
 }
 
+
+.header-container {
+  display: flex;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -163,4 +168,40 @@ h3 {
   font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  padding: 150px 0px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-top {
+
+}
+
+.footer-bottom {
+  padding-top: 20px;
+}
+
+.footer-brand {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  margin-right: 20px;
+  padding-right: 25px;
+}
+
+footer nav {
+  display: inline-block;
+  font-family: Verdana;
+  color: white;
 }
