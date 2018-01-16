@@ -142,3 +142,25 @@ nav a {
 .small-block {
   height: 250px;
 }
+
+.bite-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: thin solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
