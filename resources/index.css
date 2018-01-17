@@ -36,7 +36,7 @@ header nav {
   padding-right: 40px;
 }
 
-nav a {
+header nav a {
   display: inline-block;
   margin-left: 15px;
   font-family: Verdana;
@@ -183,7 +183,7 @@ footer {
 }
 
 .footer-top {
-
+display: flex;
 }
 
 .footer-bottom {
@@ -200,8 +200,9 @@ footer {
   padding-right: 25px;
 }
 
-footer nav {
+footer nav a {
   display: inline-block;
   font-family: Verdana;
-  color: white;
+  color: black;
+  margin: 0px 10px;
 }
