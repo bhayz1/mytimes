@@ -9,12 +9,8 @@ header {
   font-weight: bold;
   z-index: 5;
   border-bottom: thin solid black;
+  top: 0;
   /*cant figure out how to get body to not appear above header when scrolling*/
-}
-
-
-.header-container {
-  display: flex;
 }
 
 .logo {
