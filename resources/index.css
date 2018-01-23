@@ -10,7 +10,6 @@ header {
   z-index: 5;
   border-bottom: thin solid black;
   top: 0;
-  /*cant figure out how to get body to not appear above header when scrolling*/
 }
 
 .logo {
@@ -88,6 +87,7 @@ header nav a {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  margin-left: 20px;
 }
 
 .image-story {
@@ -98,28 +98,41 @@ header nav a {
 }
 
 .main-img {
+  display: flex;
   background-image: url(./images/main.png);
+  justify-content: center;
+  align-items: center;
   height: 300px;
+  width: 100%;
 }
 
 .mother-container {
   display: flex;
   flex-direction: column;
+  /*align-items: center;
+  justify-content: center;
+  (need to add these attributes to the img text on page)*/
 }
 
 .earth-img {
+  display: flex;
+  align-items: center;
   background-image: url(./images/fall.png);
   height: 300px;
   margin-top: 15px;
 }
 
 .camera-img {
+  display: flex;
+  align-items: center;
   background-image: url(./images/cameraman.png);
   height: 300px;
   margin-top: 15px;
 }
 
 .cat-img {
+  display: flex;
+  align-items: center;
   background-image: url(./images/cat.png);
   height: 300px;
   margin-top: 15px;
@@ -140,9 +153,9 @@ header nav a {
   width: 300px;
 }
 
-.small-block {
+/*.small-block {
   height: 250px;
-}
+}*/
 
 .bite-container {
   display: flex;
@@ -157,6 +170,7 @@ header nav a {
   border-bottom: thin solid black;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 25px;
 }
 
 h3 {
@@ -164,6 +178,12 @@ h3 {
   font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font: Georgia;
+  font-weight: bold;
 }
 
 footer {
